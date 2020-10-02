@@ -4,6 +4,8 @@ import { addCharacterById } from "../actions";
 
 class CharacterList extends Component {
   render() {
+    console.log("this.props", this.props);
+
     return (
       <div>
         <h4>Characters</h4>
